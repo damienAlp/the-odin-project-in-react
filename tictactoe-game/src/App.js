@@ -1,7 +1,5 @@
-import './App.css'
-
-function App() {
-  return <div></div>
+function Square() {
+  return <button className="square">X</button>
 }
 
-export default App
+export default Square
