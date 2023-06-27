@@ -17,7 +17,7 @@ export default function Board() {
   // SQUARES ARRAY
   const [squares, setSquares] = useState(Array(9).fill(null))
 
-  // PUT X OR O IN THE SQUARES
+  // PUT X OR O IN THE SQUARES --------------------------
   // THIS FUNCTION TAKES AN ARGUMENT WHICH IS i. i IS PASSED AS AN ARGUMENT DOWN IN THE JSX.
   function handleClick(i) {
     // RETURN EARLY (STOP FUNCTIONING) EITHER IF ONE OF THE CONDITIONS ARE MET
